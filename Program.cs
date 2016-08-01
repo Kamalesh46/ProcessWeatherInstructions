@@ -10,7 +10,7 @@
     public class Program
     {
         /// <summary>
-        /// Dictionary which holds instructions for HOT&COLD weather conditions
+        /// Dictionary which holds instructions for HOT, COLD weather conditions
         /// </summary>
         Dictionary<int, string[]> instructions = new Dictionary<int, string[]>();
 
@@ -25,7 +25,7 @@
         int weatherType = 0;
 
         /// <summary>
-        /// Populates Instructions for both HOT & COLD weater into Dictionary, Key as instruction ID 1to8 & HOT&COLD weather recommendation as value 
+        /// Populates Instructions for both HOT, COLD weater into Dictionary, Key as instruction ID 1to8 and HOT, COLD weather recommendation as value 
         /// </summary>
         public void PopulateInstructions()
         {
